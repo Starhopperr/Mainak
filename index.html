@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Mainak's Portfolio</title>
     <meta charset="UTF-8" />
@@ -8,87 +8,97 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="icon" href="images/logo.svg">
     <meta property="og:title" content="Mainak's Portfolio"/>
-    <meta property="og:description" content="Welcome to Mainak Sarkar's portfolio. Explore my projects and skills in Cybersecurity, Competitive Programming, and AI."/>
+    <meta property="og:description" content="Welcome to Mainak Sarkar's portfolio. Explore my projects, writeups, achievements and journey in Cybersecurity, Competitive Programming, and AI."/>
     <meta property="og:image" content="https://starhopperr.github.io/Mainak/images/snapshot.png"/>
     <meta property="og:url" content="https://starhopperr.github.io/Mainak/"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Mainak Sarkar, Portfolio, Cybersecurity, Competitive Programming, AI, Projects, Skills">
+    <meta name="keywords" content="Mainak Sarkar, Portfolio, Cybersecurity, Competitive Programming, AI, Projects, Writeups, Achievements">
     <meta name="author" content="Mainak Sarkar">
 </head>
 <body>
     <header>
         <nav class="navigator">
-            <a class="home_nav" href="index.html">Home</a>
-            <a class="projects_nav" href="#projects">Projects</a>
-            <a class="connect_nav" href="#connect">Connect</a>
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#writeups">Writeups</a>
+            <a class="nav-link" href="#achievements">Achievements</a>
+            <a class="nav-link" href="#timeline">Timeline</a>
+            <a class="nav-link" href="#connect">Connect</a>
         </nav>
     </header>
+
     <main>
-    <div class="profile-header">
-            <img class ="profile" src="images/Profile.png" alt="Picture of Mainak">
+
+        <div id="home" class="profile-header">
+            <img class="profile" src="images/profile.jpeg" alt="Picture of Mainak">
             <div class="profile-info">
-                <section class="name"> 
-                    <h1>Mainak Sarkar</h1>
+                <section class="name">
+                    <h1>Mainak</h1>
                 </section>
-                
                 <section class="introduction">
-                  <p>Hi, I'm Mainak Sarkar, a passionate computer science with a keen interest in Cybersecurity, Competitive Programming and AI. Explore my projects and connect with me!</p>
+                    <p>Hi, I'm Mainak and this is where I document all my journeys in technology.</p>
                 </section>
             </div>
         </div>
 
-    <section id="skills">
-
-    <h2 class="skills_head">Skills</h2>
-
-    <div class="skill-icons">
-      <a href="https://github.com/torvalds/linux" target="_blank"><i class="fab fa-linux"></i></a>
-      <a href="https://www.java.com/en/" target="_blank"><i class="fab fa-java"></i></a>
-      <a href="https://www.cplusplus.com/" target="_blank"><i class="fab fa-cuttlefish"></i></a>
-      <a href="https://python.org" target="_blank"><i class="fab fa-python"></i></a>
-      <a href="https://figma.com" target="_blank"><i class="fab fa-figma"></i></a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fab fa-html5"></i></a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i class="fab fa-css3-alt"></i></a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><i class="fab fa-js"></i></a>
-      <a href="https://git-scm.com/" target="_blank"><i class="fab fa-git"></i></a>
-    </div>
-
-  </section>
-
-    <section id="projects" class="projects">
-        <h2 class="projects_head">Projects</h2>
-        <div class="SHA256">
-            <h3>SHA-256 Hash Generator</h3>
-            <div class="hashgen"><input type="text" id="shaInput" placeholder="Type something and hover to hash it" autocomplete="off"></div>
-            <div class="sha-box">
-              <img class="hashimg" src="images/sha256.png" alt="SHA-256 Hash Generator">
-              <div>
-                <p class="hashdesc">Implemented the SHA-256 hashing algorithm in Java from scratch for password encryption for an android chatting app "SynQ".</p>
-                <section class="proj-code"><a href="https://github.com/Starhopperr/SHA256/blob/main/SHA256.java" target="_blank"><i class="fab fa-github">SHA-256 code on github</i></a></section>
-              </div>
+        <section id="skills">
+            <h2 class="section-head">Skills</h2>
+            <div class="skill-icons">
+                <!-- filled in automatically from content.js -->
             </div>
-        </div>
-    </section>
+        </section>
 
-    
+        <section id="projects" class="section-block">
+            <h2 class="section-head">Projects</h2>
+            <div class="projects-grid">
+                <!-- filled in automatically from content.js -->
+            </div>
+        </section>
+
+        <section id="writeups" class="section-block">
+            <h2 class="section-head">Writeups</h2>
+            <div class="writeups-list">
+                <!-- filled in automatically from content.js -->
+            </div>
+        </section>
+
+        <section id="achievements" class="section-block">
+            <h2 class="section-head">Achievements</h2>
+            <div class="achievements-list">
+                <!-- filled in automatically from content.js -->
+            </div>
+        </section>
+
+        <section id="timeline" class="section-block">
+            <h2 class="section-head">Timeline</h2>
+            <div class="timeline-track">
+                <!-- filled in automatically from content.js -->
+            </div>
+        </section>
+
     </main>
+
     <footer>
-      <section id="connect">
-      <h2 class="contact_head">Connect with Me</h2> 
-      <p>
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/Starhopperr/" target="_blank"><comment>GitHub: Starhopperr</comment></a>
-      </p>
-      <p>
-        <i class="fab fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/starhoppersenpai/" target="_blank"><comment>LinkedIN: Mainak Sarkar</comment></a>
-      </p>
-      <p>
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:mainak2ms@gmail.com"><comment>Email: mainak2ms@gmail.com</comment></a>
-      </p>
-    </section>
-        <p>&copy; 2025 Mainak Sarkar. All rights reserved.</p>
+        <section id="connect">
+            <h2 class="section-head">Connect with Me</h2>
+            <p>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Starhopperr/" target="_blank" rel="noopener">GitHub: Starhopperr</a>
+            </p>
+            <p>
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/starhoppersenpai/" target="_blank" rel="noopener">LinkedIn: Mainak Sarkar</a>
+            </p>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:mainak2ms@gmail.com">Email: mainak2ms@gmail.com</a>
+            </p>
+        </section>
+        <p class="copyright">&copy; 2025 Mainak Sarkar. All rights reserved.</p>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="render.js"></script>
     <script src="sha256.js"></script>
 </body>
 </html>
